@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript Example</title>
+		<script>
+		function display()
+		{
+			name=document.getElementById("uname").value;
+			document.getElementById("un").innerHTML="Welcome "+name;
+			document.getElementById("un").style.color="red";
+			
+		}
+		</script>
+	</head>
+	<body>
+		<h1>Javascript Example</h1>
+		<input type="text" id="uname">
+		<input type="button" value="Click" onclick="display()">
+		<p id="un"></p>
+	</body>
+</html>

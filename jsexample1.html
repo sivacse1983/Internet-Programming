@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript</title>
+	<style>
+	p
+	{
+	}
+	h1
+	{
+	color:blue;
+	}
+	</style>
+   	<script>
+	function display()
+	{
+		uname=document.getElementById("uname").value;
+		window.alert(uname);
+	}
+	</script>
+	
+</head>
+<body>
+    <h1>This is a heading</h1>
+	<h1>Second heading</h1>
+    <p>This is a paragraph of text.</p>
+	<form name="myform" onsubmit="display()">
+	<input type="text" name="uname" placeholder="Enter your name" id="uname">
+	<input type ="submit" value="Submit">
+	</form>
+</body>
+</html>

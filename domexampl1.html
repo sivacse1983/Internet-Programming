@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function addText() 
+{
+	newNode = document.createElement("p");
+	newText = document.createTextNode("This is new text to be added");
+	newNode.appendChild(newText);
+	docElement = document.getElementById("loc");
+	docElement.appendChild(newNode);
+}
+</script>
+</head>
+<body>
+<p>
+<a href="#" onclick="addText();">Click to add new text to the page</a>
+</p>
+<p id="loc">New text will appear below here</p>
+<p>Some further text in the page</p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Sample Form Page</title>
+		<script>
+		function verify()
+		{
+		}
+		</script>
+	</head>
+	<body>
+	<h1>Employee Registration Form</h1>
+	<form name="myform" action="insert.jsp" method="get" onsubmit="verify()">
+		<input type="text" name="empid" placeholder="Enter your name" required><br>
+		Gender:<br>
+		<input type="radio" name="gen" value="male">Male<br>
+		<input type="radio" name="gen" value="female">Female<br>
+		<input type="email" name="eemail" placeholder="Enter your email"><br>
+		<input type="tel" name="etel" placeholder="Enter your phone number"><br>
+		<input type="submit" value="Submit">
+	</form>
+	</body>
+</html>
